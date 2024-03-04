@@ -12,4 +12,7 @@ this command tells us that where u need to store  the files originally store.
 git fetch -v :this cammand is used to download the Reprository
 
 
-Git addd: this is used to store the file /folder to staging area where the files can't be edited.
+Git add .: this is used to store the file /folder to staging area where the files can't be edited.
+
+
+Git commit -m "Hello";
