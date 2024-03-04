@@ -1,0 +1,15 @@
+this is a github learning Session...
+press cntrl+s for saving the file
+
+
+git init - > This command is used 
+to establish the connection bettween the your local as well the github Reprository
+
+git remote add origin https://github.com/Renuka-M-Anjutagi/git-learning.git ->
+
+this command tells us that where u need to store  the files originally store.
+
+git fetch -v :this cammand is used to download the Reprository
+
+
+Git addd: this is used to store the file /folder to staging area where the files can't be edited.
