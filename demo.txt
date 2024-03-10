@@ -24,3 +24,5 @@ git branch -M main: This command used to change from master to main
 git push origin main :This command pushes the code from the local to cloud Reprository.
 
 Always have A  habit of creating a new Branch for new Feacture.
+
+To create new Branch : git checkout -b "feature/f1"
