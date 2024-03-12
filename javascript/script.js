@@ -9,10 +9,7 @@ request.send();
 
 request.onload = function (){
     var res = JSON.parse(request.response)
-    console.log(res);
-
-    console.log(res[0].population);
-
+    
     for(var i =0; i< res.length;i++)
     {
         console.log(res[i].name.common,res[i].region,res[i].subregion,res[0].population,res[i].flags);
