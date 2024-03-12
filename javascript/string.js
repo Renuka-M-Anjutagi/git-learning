@@ -40,4 +40,17 @@ inp.on("close", () => {
   //end-here
 });
 
+var res = function(arr,n)
+{
+   if(n == null || n == 0)
+   {
+      return arr[0];
+   }else{
 
+      for( var i = 0 ; i<= n.length;i++)
+      {
+          return arr[i];
+      }
+   }
+}
+console.log(res[12,13,24,15]);
