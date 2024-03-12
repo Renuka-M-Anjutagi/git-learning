@@ -15,6 +15,11 @@ request.onload = function (){
 
     for(var i =0; i< res.length;i++)
     {
-        console.log(res[i].name.common,res[i].region);
+        console.log(res[i].name.common,res[i].region,res[i].subregion,res[0].population,res[i].flags);
     }
 }
+
+
+///   
+
+
