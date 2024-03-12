@@ -1,1 +1,42 @@
-This is new file for testing purpuse
+const object1 = {
+    name: 'Person 1',
+    age: 5
+  };
+      
+  const object2 = {
+    age: 5,
+    name: 'Person 1'
+  };
+      
+  if (JSON.stringify(object1) == JSON.stringify(object2))
+    console.log("True");
+else
+    console.log("False");
+
+
+
+    /// 2 
+
+
+
+var request = new XMLHttpRequest();
+
+request.open("GET","https://restcountries.com/v3.1/all");
+
+request.send();
+
+
+request.onload = function (){
+    var res = JSON.parse(request.response)
+    
+    for(var i =0; i< res.length;i++)
+    {
+        console.log(res[i].name.common,res[i].region,res[i].subregion,res[0].population,res[i].flags);
+    }
+}
+
+
+///   
+
+
+
