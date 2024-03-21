@@ -4,24 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From Creation</title>
+    <style>
+        body{
+            background-color: rgb(224, 179, 120);
+        }
+        .fname{
+            color: #d2691e;
+           padding: 20px;
+           width: 30%;
+        }
+        #textname{
+            padding-bottom: 20px;
+            margin: 10px;
+        }
+        .mname{
+            color: antiquewhite;
+            padding: 20px;
+        }
+        .lname{
+
+            color:antiquewhite;
+            padding: 20px;
+
+        }
+        .email{
+            color: aqua;
+            padding: 20px;
+        }
+        .pass{
+
+            color:bisque;
+            padding: 20px;
+        }
+
+    </style>
 </head>
 <body>
-    <form>
+    <form method="get">
 
-        <label for="name"> Firstname  </label><br>
-        <input type="text" name="name" id="name"> 
-        <label for="middlename"> Middlename  </label><br>
-        <input type="text" name="middlename" id="middlename"> 
-        <label for="lastname"> Lastname  </label><br>
-        <input type="text" name="lastname" id="lastname"> 
+        <label class="fname" for="name"> Firstname  </label><br>
 
-        <label for="email"> Email  </label><br>
-        <input type="email" name="email" id="email"> 
-        <label for="password"> Password  </label><br>
-        <input type="password" name="password" id="password">
-        
+        <input type="text" name="name" id="textname"> <br>
+
+        <label class="mname" for="middlename"> Middlename  </label>
+
+        <input type="text" name="middlename" id="textname"> <br>
+
+        <label class="lname" for="lastname"> Lastname  </label>
+
+        <input type="text" name="lastname" id="textname"> <br>
+
+
+        <label class="email" for="email"> Email  </label>
+
+        <input type="email" name="email" id="textname"> <br>
+
+        <label class="pass" for="password"> Password  </label>
+
+        <input type="password" name="password" id="textname"><br>       
+         
         <label> Uploading File</label>
-        <input type="file" name="file" id="name">
+        <input type="file" name="file"id="textname"><br>
 
         <input type="submit" value="Submit" >
     </form>

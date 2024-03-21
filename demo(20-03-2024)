@@ -1,0 +1,94 @@
+1. external CSS:
+2. Box Model
+3. Flex properties
+4. flex-box froggy
+
+external-css: Keeping all the css files under a single file
+
+
+inline css > internal > external css
+
+Box Model: A box model is a Box that is wrapped around every html elements
+A box model consist of :
+Paddding
+Margin
+border
+
+Margin:
+A margin is basically a imaginary space around an HTML elements
+top,right,bottom,left..
+px:
+syntax:
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+There is a short hand notation in which 
+margin:top right botttom left
+
+Border: A border is a Thick Visible line
+
+Padding: It is a imaginary space around a content
+
+Note: If you wanted to convert the block level element to the inline elemenmts
+then you can use the inline properties
+
+Table:to display the data in  terms of rows and columns
+
+
+Note: Tag selectors:
+tag selectors are applied to the specifics tags
+ex: div, span, th, td, table..
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>First name</th>
+        <th>Middle Name</th>
+        <th>Last name</th>
+    </tr>
+    </thead>
+   <tbody>
+    <tr>
+        <td>John</td>
+        <td>Doe </td>
+        <td>Miller</td>
+    </tr>
+   </tbody>
+</table>
+</body>
+</html>
+
+.main{
+    background-color: yellow;
+    margin-top: 2px;
+    margin-left: 2px;
+    border:1px double black;
+    padding:2px;
+    display:inline
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+Applying flexibility to the website
+
+Flex Box
+Flexibele box
+Its Applied over single direction(1 - D)
+
+How - to use  the flex-box:
+syntax : <display:flex></display:flex>

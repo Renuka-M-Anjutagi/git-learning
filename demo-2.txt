@@ -1,0 +1,102 @@
+function rotate_arr(arr,k){
+ 
+ for(var a=0;a<k;a++){
+     var end = arr[0]
+     for(var i=0;i<arr.length-1;i++){
+      arr[i] = arr[i+1]   
+     }
+     arr[arr.length-1] = end
+} 
+
+return arr;
+}
+var arr = [1,2,3,4,5]
+var k =2;
+console.log(rotate_arr(arr,k))
+Day 02:
+div, section,article
+Intro to css
+Types of css
+Selectors
+Webkata Questions
+block level vs Inline
+
+
+CSS: cascased style sheet
+Types of css:
+1.Inline
+2.Internal
+3.External
+
+
+
+1.Inline:it is applied to the HTML elements
+syntax: <div style="property:value">Content</div>
+Inline CSS are applied via style attribute
+
+
+2. Internal CSS:
+Internal CSS are applied via <style></style>
+It is written inside the head tag
+
+Selectors:
+if you wanted to apply some css properties to a single or a group of elements
+then we can use Selectors
+
+3 categories of selectors:
+1. class 
+2. Id selectors
+3. Tag selectors
+
+class selectors:
+It is applicable for more than 1 elements
+Syntax: .classname{
+
+}
+here classname is user defined..
+here class="classname"
+class represents the attribute
+
+
+Priorities:
+Internal<Inline
+Inline css will be having the Highest Priority
+
+
+Id selectors:
+It is applicable for the single elements
+syntax: #idname{
+
+}here id attribute will be used
+maintaining the id attribute Unique 
+ID>class
+
+usage of !important keyword:
+The !important keyword is used to override the default properties..
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #main{
+        background-color: green;
+    }
+    .main1{
+        background-color: yellow !important;
+    }
+    </style>
+</head>
+<body>
+ <div id="main" class="main1">this is div</div>
+</body>
+</html>
+
+Multiple Classes:
+
+display properties
+Block Level: these are the elements which always represented in the new line
+Ex: div,section,article,....
+Inline Elements: These are the elements which are always in the same line
+span
