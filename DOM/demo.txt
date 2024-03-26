@@ -1,0 +1,15 @@
+DOM and its property
+what is DOM,
+What is Dom tree
+Internal Structure
+DOM methods:
+document.getElementById()
+document.getElementByclassName()
+document.getElementByTagname()
+query selector
+query selector all
+How to add the data in the HTML
+
+
+Application: Birthday date Generator/awesome Clock
+DOM task/....
