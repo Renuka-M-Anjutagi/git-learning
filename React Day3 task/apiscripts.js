@@ -17,5 +17,14 @@ request.onload=function(){
     for(let i = 0 ; i< result.length ; i++){
         console.log(result[i].flags);   
 
+        console.log(" Name Countries - " + result[i].name);
+        console.log("Region - " + result[i].region);
+        console.log("Subregion -  " + result[i].subregion); 
+        console.log("Population - " + result[i].population);    
+
+
+
+
+
 }
 }
